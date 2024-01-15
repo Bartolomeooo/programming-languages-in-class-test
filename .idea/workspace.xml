@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bfc60da-5f3d-4e67-a738-a9795391dacb" name="Changes" comment="Commit w środku zajęć" />
+    <list default="true" id="7bfc60da-5f3d-4e67-a738-a9795391dacb" name="Changes" comment="Commit w środku zajęć">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/DrawingArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/DrawingArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/RectangleDrawingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/RectangleDrawingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rectangle/RectangleMover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rectangle/RectangleMover.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,21 +32,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +61,13 @@
       <workItem from="1705320874652" duration="272000" />
       <workItem from="1705322324237" duration="83000" />
       <workItem from="1705322418686" duration="52000" />
-      <workItem from="1705322487211" duration="1119000" />
+      <workItem from="1705322487211" duration="1580000" />
+      <workItem from="1705324256543" duration="446000" />
+      <workItem from="1705324813467" duration="145000" />
+      <workItem from="1705324990800" duration="33000" />
+      <workItem from="1705325042504" duration="24000" />
+      <workItem from="1705325075471" duration="251000" />
+      <workItem from="1705325361309" duration="1056000" />
     </task>
     <task id="LOCAL-00001" summary="Pierwszy commit">
       <created>1705320905731</created>
@@ -71,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705323600966</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit w środku zajęć">
+      <created>1705323685082</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705323685082</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -5,13 +5,12 @@ import gui.DrawingArea;
 import java.awt.*;
 import javax.swing.*;
 
-public class RectangleMover implements Runnable {
-    private final Rectangle rectangle;
+public class RectangleMover extends Rectangle implements Runnable {
     private final DrawingArea drawingArea;
-    private int directionX = 0, directionY = 1; // trzeba zmodyfikować program pod zmianę kierunku
+    private int directionX = 0, directionY = 1;
 
-    public RectangleMover(Rectangle rect, DrawingArea drawingArea) {
-        this.rectangle = rect;
+    public RectangleMover(DrawingArea drawingArea, int x, int y, int width, int height) {
+        super(x, y, width, height);
         this.drawingArea = drawingArea;
     }
 
@@ -19,8 +18,15 @@ public class RectangleMover implements Runnable {
     public void run() {
         while(true) {
             SwingUtilities.invokeLater(() -> {
-                rectangle.y += directionY;
-                rectangle.x += directionX;
+                if(directionY == 1 && y + height >= drawingArea.getHeight()) {}
+                else if (directionY == -1 && y <= 0) {}
+                else if (directionX == 1 && x + width >= drawingArea.getWidth()) {}
+                else if (directionX == -1 && x <= 0) {}
+                else {
+                    y += directionY;
+                    x += directionX;
+                }
+
                 drawingArea.repaint();
             });
 

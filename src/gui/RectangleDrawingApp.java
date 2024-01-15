@@ -12,10 +12,5 @@ public class RectangleDrawingApp extends JFrame {
         add(drawingArea);
         pack();
         setLocationRelativeTo(null);
-        setVisible(true);
-    }
-
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(RectangleDrawingApp::new);
     }
 }
