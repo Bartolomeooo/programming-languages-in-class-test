@@ -11,6 +11,7 @@ public class DrawingArea extends JPanel {
     private final java.util.List<RectangleMover> rectangles = new ArrayList<>();
     private Point startPoint;
     Boolean isSecondClick = false;
+    private int directionX = 0, directionY = 1;
 
     public DrawingArea() {
         setPreferredSize(new Dimension(800, 600));
@@ -33,27 +34,19 @@ public class DrawingArea extends JPanel {
         addKeyListener(new KeyAdapter() { // Wczytywanie z klawiatury (gwaritacja jest zależna od kierunku określonego przez strzałki)
             public void keyPressed(KeyEvent e) {
                 int keyCode = e.getKeyCode();
-
-                if (keyCode == KeyEvent.VK_LEFT) {
-                    for (RectangleMover rectangle : rectangles) {
-                        rectangle.setDirectionX(-1);
-                        rectangle.setDirectionY(0);
-                    }
+                // Na zajęciach nie starczyło mi czasu, ale chciałem, żeby cała klasa prostokątów przechowywała informację o kierunku grawitacji
+                if (keyCode == KeyEvent.VK_LEFT) { // Dlatego zmienne directionX i directionY są teraz statycznymi polami w klasie RectangleMover
+                    RectangleMover.setDirectionX(-1);
+                    RectangleMover.setDirectionY(0);
                 } else if (keyCode == KeyEvent.VK_RIGHT) {
-                    for (RectangleMover rectangle : rectangles) {
-                        rectangle.setDirectionX(1);
-                        rectangle.setDirectionY(0);
-                    }
+                    RectangleMover.setDirectionX(1);
+                    RectangleMover.setDirectionY(0);
                 } else if (keyCode == KeyEvent.VK_UP) {
-                    for (RectangleMover rectangle : rectangles) {
-                        rectangle.setDirectionX(0);
-                        rectangle.setDirectionY(-1);
-                    }
+                    RectangleMover.setDirectionX(0);
+                    RectangleMover.setDirectionY(-1);
                 } else if (keyCode == KeyEvent.VK_DOWN) {
-                    for (RectangleMover rectangle : rectangles) {
-                        rectangle.setDirectionX(0);
-                        rectangle.setDirectionY(1);
-                    }
+                    RectangleMover.setDirectionX(0);
+                    RectangleMover.setDirectionY(1);
                 }
             }
         });

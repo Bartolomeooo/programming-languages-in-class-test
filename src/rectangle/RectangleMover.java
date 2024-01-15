@@ -7,7 +7,7 @@ import javax.swing.*;
 
 public class RectangleMover extends Rectangle implements Runnable {
     private final DrawingArea drawingArea;
-    private int directionX = 0, directionY = 1;
+    private static int directionX = 0, directionY = 1;
 
     public RectangleMover(DrawingArea drawingArea, int x, int y, int width, int height) {
         super(x, y, width, height);
@@ -37,11 +37,11 @@ public class RectangleMover extends Rectangle implements Runnable {
             }
         }
     }
-    public void setDirectionX(int directionX) {
-        this.directionX = directionX;
+    public static void setDirectionX(int newDirectionX) {
+        directionX = newDirectionX;
     }
 
-    public void setDirectionY(int directionY) {
-        this.directionY = directionY;
+    public static void setDirectionY(int newDirectionY) {
+        directionY = newDirectionY;
     }
 }
