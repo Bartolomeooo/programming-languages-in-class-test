@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bfc60da-5f3d-4e67-a738-a9795391dacb" name="Changes" comment="Pierwszy commit">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/DrawingArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/RectangleDrawingApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rectangle/RectangleMover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7bfc60da-5f3d-4e67-a738-a9795391dacb" name="Changes" comment="Commit w środku zajęć" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +55,7 @@
       <workItem from="1705320874652" duration="272000" />
       <workItem from="1705322324237" duration="83000" />
       <workItem from="1705322418686" duration="52000" />
-      <workItem from="1705322487211" duration="748000" />
+      <workItem from="1705322487211" duration="1119000" />
     </task>
     <task id="LOCAL-00001" summary="Pierwszy commit">
       <created>1705320905731</created>
@@ -70,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705320905731</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit w środku zajęć">
+      <created>1705323600966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705323600966</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pierwszy commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pierwszy commit" />
+    <MESSAGE value="Commit w środku zajęć" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit w środku zajęć" />
   </component>
 </project>
