@@ -11,7 +11,6 @@ public class DrawingArea extends JPanel {
     private final java.util.List<RectangleMover> rectangles = new ArrayList<>();
     private Point startPoint;
     Boolean isSecondClick = false;
-    private int directionX = 0, directionY = 1;
 
     public DrawingArea() {
         setPreferredSize(new Dimension(800, 600));
@@ -22,8 +21,13 @@ public class DrawingArea extends JPanel {
                 if (!isSecondClick) {
                     startPoint = e.getPoint();
                     isSecondClick = true;
-                } else {
-                    RectangleMover rectangle = new RectangleMover(DrawingArea.this, startPoint.x, startPoint.y, Math.abs(e.getX() - startPoint.x), Math.abs(e.getY() - startPoint.y));
+                } else { // Uwzględniono przypadki, gdy użytkownik utworzy trójkąt z innych konfiguracji wierzchołków
+                    int startX = Math.min(startPoint.x, e.getX());
+                    int startY = Math.min(startPoint.y, e.getY());
+                    int endX = Math.max(startPoint.x, e.getX());
+                    int endY = Math.max(startPoint.y, e.getY());
+
+                    RectangleMover rectangle = new RectangleMover(DrawingArea.this, startX, startY, endX - startX, endY - startY);
                     rectangles.add(rectangle);
                     new Thread(rectangle).start();
                     isSecondClick = false;

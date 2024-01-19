@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bfc60da-5f3d-4e67-a738-a9795391dacb" name="Changes" comment="Commit w środku zajęć">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7bfc60da-5f3d-4e67-a738-a9795391dacb" name="Changes" comment="[Commit po zajęciach] Zmiana zmiennych direction w klasie RectangleMover.java na statyczne">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/DrawingArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/DrawingArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rectangle/RectangleMover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rectangle/RectangleMover.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,31 +26,31 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2axgqLnIQDzOEbZ4umCGwbK7faM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,7 +72,9 @@
       <workItem from="1705325042504" duration="24000" />
       <workItem from="1705325075471" duration="251000" />
       <workItem from="1705325361309" duration="1056000" />
-      <workItem from="1705336831542" duration="1070000" />
+      <workItem from="1705336831542" duration="1374000" />
+      <workItem from="1705343339282" duration="1406000" />
+      <workItem from="1705674347184" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="Pierwszy commit">
       <created>1705320905731</created>
@@ -97,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705323685082</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[Commit po zajęciach] Zmiana zmiennych direction w klasie RectangleMover.java na statyczne">
+      <option name="closed" value="true" />
+      <created>1705338140201</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705338140201</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pierwszy commit" />
     <MESSAGE value="Commit w środku zajęć" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit w środku zajęć" />
+    <MESSAGE value="[Commit po zajęciach] Zmiana zmiennych direction w klasie RectangleMover.java na statyczne" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Commit po zajęciach] Zmiana zmiennych direction w klasie RectangleMover.java na statyczne" />
   </component>
 </project>
