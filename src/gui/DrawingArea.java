@@ -21,7 +21,7 @@ public class DrawingArea extends JPanel {
                 if (!isSecondClick) {
                     startPoint = e.getPoint();
                     isSecondClick = true;
-                } else { // Uwzględniono przypadki, gdy użytkownik utworzy trójkąt z innych konfiguracji wierzchołków
+                } else { // Uwzględniono przypadki, gdy użytkownik utworzy prostokąt z innych konfiguracji wierzchołków
                     int startX = Math.min(startPoint.x, e.getX());
                     int startY = Math.min(startPoint.y, e.getY());
                     int endX = Math.max(startPoint.x, e.getX());
