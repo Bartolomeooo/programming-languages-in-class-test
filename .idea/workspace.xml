@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bfc60da-5f3d-4e67-a738-a9795391dacb" name="Changes" comment="[Commit po zajęciach] Poprawa tworzenia prostokątów">
+    <list default="true" id="7bfc60da-5f3d-4e67-a738-a9795391dacb" name="Changes" comment="[Commit po zajęciach] Poprawa komentarza do ostatniej zmiany">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/DrawingArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/DrawingArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/RectangleDrawingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/RectangleDrawingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rectangle/RectangleMover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rectangle/RectangleMover.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +76,8 @@
       <workItem from="1705325361309" duration="1056000" />
       <workItem from="1705336831542" duration="1374000" />
       <workItem from="1705343339282" duration="1406000" />
-      <workItem from="1705674347184" duration="610000" />
+      <workItem from="1705674347184" duration="926000" />
+      <workItem from="1705689195620" duration="2038000" />
     </task>
     <task id="LOCAL-00001" summary="Pierwszy commit">
       <created>1705320905731</created>
@@ -112,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705674945341</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[Commit po zajęciach] Poprawa komentarza do ostatniej zmiany">
+      <option name="closed" value="true" />
+      <created>1705675145599</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705675145599</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +146,7 @@
     <MESSAGE value="Commit w środku zajęć" />
     <MESSAGE value="[Commit po zajęciach] Zmiana zmiennych direction w klasie RectangleMover.java na statyczne" />
     <MESSAGE value="[Commit po zajęciach] Poprawa tworzenia prostokątów" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Commit po zajęciach] Poprawa tworzenia prostokątów" />
+    <MESSAGE value="[Commit po zajęciach] Poprawa komentarza do ostatniej zmiany" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Commit po zajęciach] Poprawa komentarza do ostatniej zmiany" />
   </component>
 </project>

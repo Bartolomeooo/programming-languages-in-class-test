@@ -55,7 +55,7 @@ public class DrawingArea extends JPanel {
             }
         });
 
-        Timer timer = new Timer(2, e -> {
+        Timer timer = new Timer(1, e -> {
             repaint();
         });
         timer.start();
