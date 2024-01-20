@@ -65,8 +65,7 @@ public class DrawingArea extends JPanel {
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
         for (RectangleMover rectangle : rectangles) {
-            g.drawRect(rectangle.x, rectangle.y, rectangle.width, rectangle.height);
-            g.setColor(Color.BLUE);
+            g.setColor(rectangle.getColor());
             g.fillRect(rectangle.x, rectangle.y, rectangle.width, rectangle.height);
         }
     }

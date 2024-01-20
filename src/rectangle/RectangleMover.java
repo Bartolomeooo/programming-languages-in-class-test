@@ -7,11 +7,13 @@ import javax.swing.*;
 
 public class RectangleMover extends Rectangle implements Runnable {
     private final DrawingArea drawingArea;
+    private final Color color; // Dodanie zmiennego koloru do prostokąta dla lepszej widoczności
     private static int directionX = 0, directionY = 1;
 
     public RectangleMover(DrawingArea drawingArea, int x, int y, int width, int height) {
         super(x, y, width, height);
         this.drawingArea = drawingArea;
+        color = new Color((float)Math.random(), (float)Math.random(), (float)Math.random());
     }
 
     @Override
@@ -43,5 +45,9 @@ public class RectangleMover extends Rectangle implements Runnable {
 
     public static void setDirectionY(int newDirectionY) {
         directionY = newDirectionY;
+    }
+
+    public Color getColor() {
+        return color;
     }
 }
